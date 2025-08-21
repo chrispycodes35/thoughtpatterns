@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
@@ -155,12 +157,12 @@ export default function AboutPage() {
           <p className="text-blue-100 mb-6">
             Begin uncovering your thought patterns and developing healthier cognitive habits today.
           </p>
-          <a
-            href="/"
-            className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-          >
-            Start Journaling
-          </a>
+                      <Link
+              href="/"
+              className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+            >
+              Start Journaling
+            </Link>
         </div>
       </div>
     </main>

@@ -23,7 +23,7 @@ export default function JournalEntry({ value, onChange, onAnalyze, isAnalyzing }
         <textarea
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          placeholder="Start writing your thoughts here... For example: 'I had a terrible day at work today. My boss is always criticizing me and I feel like I can never do anything right. I'm starting to think I'm just not cut out for this job.'"
+          placeholder="Start writing your thoughts here... For example: &apos;I had a terrible day at work today. My boss is always criticizing me and I feel like I can never do anything right. I&apos;m starting to think I&apos;m just not cut out for this job.&apos;"
           className="w-full h-48 p-4 border border-gray-300 rounded-lg resize-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
           disabled={isAnalyzing}
         />
@@ -60,7 +60,7 @@ export default function JournalEntry({ value, onChange, onAnalyze, isAnalyzing }
           <li>• Be specific about your thoughts and feelings</li>
           <li>• Include both positive and negative experiences</li>
           <li>• Describe the context and your reactions</li>
-          <li>• Write naturally - don't overthink it</li>
+          <li>• Write naturally - don&apos;t overthink it</li>
         </ul>
       </div>
     </div>

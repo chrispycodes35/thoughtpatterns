@@ -63,7 +63,7 @@ export default function ThoughtAnalysis({ results, isAnalyzing }: ThoughtAnalysi
             Ready to Analyze
           </h3>
           <p className="text-gray-600">
-            Write a journal entry and click "Analyze Thoughts" to discover patterns in your thinking.
+            Write a journal entry and click &ldquo;Analyze Thoughts&rdquo; to discover patterns in your thinking.
           </p>
         </div>
       </div>
@@ -107,7 +107,7 @@ export default function ThoughtAnalysis({ results, isAnalyzing }: ThoughtAnalysi
                   {pattern.examples.map((example, index) => (
                     <li key={index} className="text-sm text-gray-600 flex items-start">
                       <span className="text-gray-400 mr-2">•</span>
-                      <span className="italic">"{example}"</span>
+                      <span className="italic">&ldquo;{example}&rdquo;</span>
                     </li>
                   ))}
                 </ul>

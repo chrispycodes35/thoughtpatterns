@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function HistoryPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
@@ -19,7 +21,7 @@ export default function HistoryPage() {
             Progress Tracking Coming Soon
           </h2>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            We're building powerful analytics to help you visualize your cognitive journey, 
+            We&apos;re building powerful analytics to help you visualize your cognitive journey, 
             identify recurring patterns, and celebrate your progress in developing healthier thinking habits.
           </p>
           
@@ -80,18 +82,18 @@ export default function HistoryPage() {
           </div>
           
           <div className="mt-8">
-            <a
+            <Link
               href="/"
               className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors mr-4"
             >
               Start Journaling
-            </a>
-            <a
+            </Link>
+            <Link
               href="/about"
               className="inline-block bg-gray-200 text-gray-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-300 transition-colors"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
       </div>
